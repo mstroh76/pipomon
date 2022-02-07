@@ -1,2 +1,2 @@
-# pimeter
-Power meter 
+# pipomon
+Pi Power Monitor 
