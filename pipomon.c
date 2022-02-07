@@ -87,9 +87,6 @@ int main(void) {
 				printf(" %06d\t%3.1f\t%3.3f\t%5.0f\t%02d.%02d.%d\t%02d:%02d:%02d\n", 
 				 nCounterValue, fSec, work, power, tm->tm_mday, tm->tm_mon+1, tm->tm_year+1900, tm->tm_hour, tm->tm_min, tm->tm_sec);		
 				
-				for (loop=nlen;loop<16;loop++)
-					szLCDLine[loop]=' ';
-				szLCDLine[16]='\0';
 				if (power<=9999) {
 					snprintf(sz7seg, 5, "%04.0f", power);
 				} else {
