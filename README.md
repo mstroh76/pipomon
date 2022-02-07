@@ -5,9 +5,10 @@ Value output with 4-digit TM1637 display
 
 
 Orange LED: ~590-605 nm  
-LPT80A: 450-1100 nm (880 nm max sens.)
+[Osram LPT80A](https://www.conrad.at/de/p/osram-fototransistor-4-57-x-5-84-mm-1100-nm-40-lpt-80-a-153470.htm): 450-1100 nm (880 nm max sens.)
 
-## Circuit diagram
+
+## circuit diagram
 
 ![circuit diagram](images/Schaltplan.png)
 
