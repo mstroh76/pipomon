@@ -1,7 +1,6 @@
-# pipomon
-Pi Power Monitor  
+# Pi Power Monitor  - pipomon
 
-LED blink dedection from smart meter with optical sensor  
+LED blink dedection from smart meter with optical sensor for LED 
 Value output with 4-digit TM1637 display
 
 ## compile
