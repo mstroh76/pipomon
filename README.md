@@ -1,4 +1,4 @@
-# Pi Power Monitor  - pipomon
+# PI POwer MONitor
 
 LED blink dedection from smart meter with optical sensor (LPT80A) for LED  
 Value output with 4-digit TM1637 display
@@ -7,7 +7,7 @@ Value output with 4-digit TM1637 display
 Orange LED: ~590-605 nm  
 LPT80A: 450-1100 nm (880 nm max sens.)
 
-## Shematic
+## Circuit diagram
 
 ![circuit diagram](images/Schaltplan.png)
 
