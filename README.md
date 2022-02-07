@@ -11,5 +11,15 @@ cd pipomon
 wget https://raw.githubusercontent.com/GrazerComputerClub/TM1637Display/master/TM1637Display.cpp
 wget https://raw.githubusercontent.com/GrazerComputerClub/TM1637Display/master/TM1637Display.h
 g++ -Wall -o pipomon pipomon.c TM1637Display.cpp -lwiringPi
-./pipomon
+cp ./pipomon /usr/local/bin
+pipomon
+```
+
+
+## install service
+
+```bash
+sudo cp pipomon.service /etc/systemd/system
+sudo systemctl daemon-reload
+sudo systemctl enable pipomon
 ```

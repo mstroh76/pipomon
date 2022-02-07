@@ -1,0 +1,13 @@
+[Unit]
+Description=PI POwer MOnitor
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/pi
+StandardOutput=append:/var/log/pipomon.log
+ExecStart=/usr/local/bin/pipomon
+
+[Install]
+WantedBy=multi-user.target
+
