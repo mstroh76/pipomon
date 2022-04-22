@@ -7,6 +7,7 @@ User=root
 WorkingDirectory=/home/pi
 StandardOutput=append:/var/log/pipomon.log
 ExecStart=/usr/local/bin/pipomon
+ExecStop=/usr/local/bin/2display stop
 
 [Install]
 WantedBy=multi-user.target

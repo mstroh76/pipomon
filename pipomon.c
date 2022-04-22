@@ -1,7 +1,12 @@
-//   Power and eletric work monitor (Raspberry Pi) 
-//   optical sensor LPT80A for detecting orange led (~600nm) pulse
-//   at Imp_GPIO input (default 17) 
-//   need library https://github.com/GrazerComputerClub/TM1637Display
+//   Smartmeter, Optical power consumption monitor (Raspberry Pi) 
+//
+//   Hardware:
+//      - optical sensor LPT80A for detecting orange led (~600nm) pulse
+//         at Imp_GPIO input (default 17) 
+//      - 4 digit TM1637 display
+//   need library/packages: 
+//         https://github.com/GrazerComputerClub/TM1637Display
+//         wiringPi
 //   compile:  g++ -Wall -o pipomon pipomon.c TM1637Display.cpp -lwiringPi
 
 #include <wiringPi.h>
